@@ -30,18 +30,20 @@ body{
     margin-right: 15px;
     flex: 1;
     outline: 0;
-    background: #c7cecd;
-    color: bisque;
+    background: #beb2b2;
+    color: rgb(10, 10, 9);
     padding: 10px 20px;
     height: 60px;
     border-radius: 20px;
     font-size: 16px;
+    
+    
 }
 .search button{
     border: 0;
     outline: 0;
-    background: #c7cecd;
-    color: bisque;
+    background: #e7e3e3;
+    color: rgb(25, 23, 20);
     border-radius: 50%;
     cursor: pointer;
     width: 60px;
@@ -86,4 +88,7 @@ body{
 .humidity, .wind{
     font-size: 26px;
     margin-top: -6px;
+}
+.weather{
+    display: none;
 }
